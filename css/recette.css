@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    transition: all .3s ease;
+}
+
+
+.body{
+    font-family: 'Montserrat';
+    margin-top: 130px;
+    background-color: #F8F8F8;
+    justify-content: center; 
+     align-items: center;
+} 
+    
+    
+/* NAVBAR */
+.nutri{
+    font-family: "Clash Display";
+    font-weight: bold;
+    font-size: 38px !important;
+}
+
+.nutri:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 7px 10px #0000003b)
+}
+
+.logo{
+    position: absolute;
+    filter: drop-shadow(0px 7px 10px #0000005c);
+    top: -10px; left: 40px;
+}
+
+.navbar{
+    background-color: #7DC383 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.txt{
+    font-size: 24px !important;
+    font-style: italic;
+}
+
+.txt:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 7px 10px #0000009a);
+}
+
+
+/* FIN NAVBAR */
+    
+.bloc{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap :20px;
+        padding: 33px;
+}
+
+
+
+   
+    .bloc2{
+        display: flex;
+        justify-content: space-around;
+        gap :20px;
+        padding: 33px;
+        margin-bottom: 60px;
+    }
+
+    
+    
+ .img{
+        width: 100%;
+
+    }
+
+    .img2{
+    width: 100%;
+    }
+
+    p{
+        font-family: 'courgette'; 
+        font-size:  25px;
+        color:#03045E;
+          text-align: center;
+    }
+    
+    section{
+        background-color: rgb(232, 230, 230);
+
+        
+       
+    }
+    .flexD > img {
+        width: 40px;
+        
+        }
+.flexD > p {
+font-size: 15px;
+
+}
+
+    button{
+    
+        background-color: #03045E;
+        color: white;
+        position:absolute;
+        margin-top:10px;
+        margin-right:200px;
+        height: 5%;
+        width: 5%;
+
+        
+    } 
+   .bouton{
+    display: flex;
+    justify-content: flex-end;
+   }
+   
+
+   .flexSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+   }
+
+   .flexD{
+    display: flex;
+    flex-direction:column ;
+    text-align: center;
+   }
+
+   /* FOOTER */
+
+.footer{
+    background-color: #7DC383;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    font-size: 12px;
+    z-index: 100;
+}
+
+.fb:hover, .insta:hover, .pint:hover{
+    transform: scale(1.5);
+}
+
+.noir{
+color: black ;
+}
+
+/* FIN FOOTER */

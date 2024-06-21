@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    transition: all .3s ease;
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src:
+      local("Clash Display");    
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:
+      local('Montserrat');    
+}
+
+.body{
+    font-family: 'Montserrat';
+    margin-top: 80px;
+    background-color: #F8F8F8;
+}
+
+
+/* NAVBAR */
+.nutri{
+    font-family: "Clash Display";
+    font-weight: bold;
+    font-size: 38px !important;
+}
+
+.nutri:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 7px 10px #0000003b)
+}
+
+.logo{
+    position: absolute;
+    filter: drop-shadow(0px 7px 10px #0000005c);
+    top: -10px; left: 40px;
+    z-index: 100;
+}
+
+.navbar{
+    background-color: #7DC383 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
+}
+
+.txt{
+    font-size: 24px !important;
+    font-style: italic;
+}
+
+.txt:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 7px 10px #0000009a);
+}
+
+/* FIN NAVBAR */
+
+.contener{
+    border: black solid 2 px;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+
+.head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logosoleil{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.matin{
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.titrerecette{
+    padding-left: 190px;
+    width: 80%;
+}
+
+.recette{
+    margin-top: 70px;
+    width: 60%;
+    height: 70vh;
+    border-radius: 6px;
+    background-color: rgba(241, 239, 239, 0.137);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.recette h2{
+    text-align: center;
+    font-family: Courgette;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.imgrecette{
+    background-image: url(../media/barrechoco.png);
+   background-position: center;
+    background-size:400px 204px;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 15vh;
+    margin: auto;
+    filter: drop-shadow(0px 7px 10px #0000005c);
+    border-radius: 10px; 
+    margin-bottom: 25px;
+    line-height: 30px; 
+}
+
+.instructions{
+    width: 90%;
+    margin-left: 15%;
+    margin-bottom: 15px;
+    line-height: 30px;
+
+}
+
+.boxinfos{
+    width: 90%;
+    margin: auto;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.boxinfos img{
+ margin-right: 10px;
+}
+
+.infos{
+    margin-top: 2px;
+}
+
+.ingredients{
+    width: 25%;
+    height: 43vh;
+    background-color:#03045E;
+    margin-top: -5%;
+    color: #FFF;
+    border-radius: 6px;
+    line-height: 30px;    
+}
+
+.ingredients h2{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Courgette;
+    font-size: 32px;
+    margin-bottom: 20px;
+ 
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #7DC383;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    font-size: 12px;
+}
+
+.fb:hover, .insta:hover, .pint:hover{
+    transform: scale(1.5);
+}
+
+.noir{
+color: black ;
+}
+
+/* FIN FOOTER */

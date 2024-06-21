@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all .3s ease;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src:
+      local('Montserrat');    
+}
+
+.body{
+    font-family: 'Montserrat';
+    margin-top: 110px;
+    background-color: #F8F8F8;
+}
+
+/* NAVBAR */
+.nutri{
+    font-family: "Clash Display";
+    font-weight: bold;
+    font-size: 38px !important;
+}
+
+.nutri:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 7px 10px #0000003b)
+}
+
+.logo{
+    position: absolute;
+    filter: drop-shadow(0px 7px 10px #0000005c);
+    top: -10px; left: 40px;
+}
+
+.navbar{
+    background-color: #7DC383 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.txt{
+    font-size: 24px !important;
+    font-style: italic;
+}
+
+.txt:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 7px 10px #0000009a);
+}
+
+/* FIN NAVBAR */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.bloc1, .bloc2{
+    width: 45%;
+}
+
+.bloc2{
+    box-shadow: rgba(0, 0, 0, 0.114) 0px 10px 20px;
+    border: rgba(0, 0, 0, 0.068) 1px solid;
+    border-radius: 6px;
+    padding: 30px;    
+}
+
+.description{
+    color: rgba(70, 75, 75, 0.507);
+    font-size: 12px;
+    font-style: italic;
+}
+
+#femme{
+    margin: 0 10px 30px 0;
+}
+#homme{
+    margin: 0 10px 30px 40px;
+}
+
+.intensite{
+    margin: 0 2px 0 25px;
+}
+.intensite1{
+    margin-right: 2px;
+}
+
+#age{
+    width: 50px;
+    margin: 5px 8px 10px 20px ;
+    padding: 4px;
+}
+
+#poids{
+    width: 50px;
+    margin: 0 8px; 
+    padding: 2px;
+}
+
+#taille{
+    margin: 10px 10px;
+    width: 52px;
+    padding: 2px;
+}
+    
+
+.a input{
+    margin: 8px ;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.facteur{
+    margin: 5px 0 15px 0;
+}
+
+.facteur1{
+    margin-right: 10px;
+}
+
+.titrefacteur1{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.titrefacteur2{
+    border-top: solid rgba(0, 0, 0, 0.152) 1px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#mb, #kcal, #dej{
+    margin-bottom: 40px;
+}
+
+#dejTxt{
+    margin-bottom: 20px;
+}
+  
+#Utilisateur {  /*l'id d'input number*/
+    width: 3em;
+}
+
+
+.ligne{
+    width: 180px;
+    padding-bottom: 30px;
+    border-top: solid rgba(0, 0, 0, 0.152) 1px;
+}
+
+.bloc2 input{
+    width: 50px;
+    margin:0 10px 0 10px;
+    border: rgba(0, 0, 0, 0.099) solid 1px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.bold{
+    font-weight:bold ;
+    text-shadow: #FCE22A 4px 5px 3px;
+}
+.btn{
+    margin-top: -80px !important;
+    color: #F8F8F8;
+    font-size: 22px ! important;
+    font-weight: bold !important;
+    border-radius: 8px;
+    width: 130px;
+    height: 45px;
+    border: none;
+    background-color: #03045E;
+}
+
+.btn:hover{
+    background-color: #02033f;
+    box-shadow: rgba(0, 0, 0, 0.114) 0px 10px 20px;
+}
+
+/* CAROUSEL */
+
+* {
+    box-sizing: border-box
+} 
+
+.mySlides {
+    display: none;
+    width: 50%;
+    margin-left: 30%;
+}
+
+img {
+    vertical-align:auto;
+    margin: auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #03045E;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #03045E;
+}
+
+/* Fading animation */
+.fades {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fades {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* FIN CAROUSEL */
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #7DC383;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    font-size: 12px;
+    z-index: 100;
+}
+
+.fb:hover, .insta:hover, .pint:hover{
+    transform: scale(1.5);
+}
+
+.noir{
+color: black ;
+}
+
+/* FIN FOOTER */
